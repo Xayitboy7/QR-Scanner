@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
+    tools:context=".MainActivity"
+    >
+
+<TextView
+android:id="@+id/title"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="QR Code Scanner"
+android:textColor="@android:color/white"
+android:textSize="24sp"
+android:textStyle="bold"
+android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true" />
+
+<ImageView
+android:id="@+id/illustration"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/scan_me"
+android:layout_below="@id/title"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="40dp"/>
+
+<TextView
+android:id="@+id/description"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Scan, Connect, Explore!\nInstant Access at Your Fingertips"
+android:textColor="@android:color/white"
+android:textSize="16sp"
+android:layout_below="@id/illustration"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="20dp"
+android:gravity="center"/>
+
+    <Button
+    android:id="@+id/continue_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Continue to app"
+    android:layout_below="@id/description"
+    android:layout_marginTop="40dp"
+    android:backgroundTint="@color/yashil"
+    android:textColor="@android:color/white"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/customs_button"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"/>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="28dp">
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+    </RelativeLayout>
