@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
     ImageButton img_btn;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);  // Вызов метода суперкласса для базовой инициализации
